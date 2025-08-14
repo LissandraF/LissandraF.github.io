@@ -1,52 +1,218 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<head>
+  <!DOCTYPE html>
+  <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Work</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Navigation bar styling */
+      .navbar {
+        background-color: #dceeff;
+        overflow: hidden;
+      }
+
+      .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+
+      .navbar a:hover {
+        background-color: #575757;
+      }
+
+      /* Page content */
+      .content {
+        padding: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello, below is my work and projects!</h1>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="Index (Work).html">Work</a>
+      <a href="index (contact).html">Contact</a>
+    </div>
+
+  </body>
+  </html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="bg-text-bg-light p-3 text-black text-center py-4">
+    <h1>Lissandra Ferrante</h1>
+    <p>Artist| Aspiring Business Women | NYC</p>
+  </header>
+
+  <!-- Profile Section -->
+  <section class="container my-5 d-flex flex-column flex-md-row align-items-center">
+    <img src= "https://static.wixstatic.com/media/9107fe_51d906867ee443eebac716c45ef1dbfc~mv2.png/v1/crop/x_0,y_423,w_3007,h_3273/fill/w_768,h_838,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7994-preview_HEIC.png"
+      class="profile-img fluid rounded"   
+      alt="profile picture"
+    style="width: 200px; height: 200px; object-fit: cover"
+
+      <img src="https://qsinquirer.com/wp-content/uploads/2024/03/IMG_6990-554x1200.png" class="profile-img fluid rounded" alt="Profile Picture"> 
+    <div class="ms-md-4">
+      <h2>About Me</h2>
+      <p>
+        I am an incoming Freshman at Northeastern University studying Marketing. I am from NYC, Queens. I have worked as a social media intern and manager for non-profits in the past and plan to continue uplifting unheard voices.
+
+        Art has been part of my life since I was young, and now I am expanding to tech and website creation!
+
+        Explore my website more to see my education and work history.
+        
+            </p>
+          </div>
+        </section>
+        <!-- Grid Section -->
+        <section class="container my-5">
+          <h2 class="text-center mb-4">My Skills</h2>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card h-100 text-center p-3">
+                <h3>💻 Coding</h3>
+                <p>I build responsive websitesthat look great on all devices.My work includes creating my own website (coding & Wix) and wireframes for businesses. </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 text-center p-3">
+                <h3>🎨 Design</h3>
+                <p>I create visually appealing designs that enhance user experiences on sites such as Canva and Figma. My works include posters, theater props, and Instagram posts.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 text-center p-3">
+                <h3>🌍 Public Speaking</h3>
+                <p>I love to speak to a crowd whether it is for a speach or to teach a group of students.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+  <!-- Container (Bootstrap Concept 1: Layout using Container) -->
+  <div class="container my-5">
+    <h1 class="text-center mb-4"> Certifications <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-patch-check" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+      <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"/>
+    </svg></h1>
+
+    <!-- Row and Columns (Bootstrap Concept 2: Grid System) -->
+    <div class="row">
+      <!-- First Skill -->
+      <div class="col-md-4 text-center">
+        <img
+          src="https://static.wixstatic.com/media/11062b_8e68e5f7a89740fb9e281383ff9308de~mv2.jpg/v1/fill/w_894,h_582,fp_0.42_0.24,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Woman%20on%20Computer.jpg"
+          class="img-fluid rounded"
+          alt="Google UX Design"
+          style="width: 200px; height: 200px; object-fit: cover"
+        />
+        <h5 class="mt-3">Google: UX Design</h5>
+        <p>Ongoing, 5 months of learning UX Design and making projects.</p>
+      </div>
+
+      <!-- Second Skill -->
+      <div class="col-md-4 text-center">
+        <img
+          src="https://static.wixstatic.com/media/9107fe_509c20a2fb054763967d6aa5123f1f93~mv2.jpeg/v1/fill/w_894,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8158.jpeg"="img-fluid rounded"
+          alt="Girls With Impact"
+          style="width: 300px; height: 200px; object-fit: cover"
+        />
+        <h5 class="mt-3">Girls With Impact</h5>
+        <p>10 week long program that teaches women how to be leaders and the foundations of a sucessful business. </p>
+      </div>
+
+      <!-- Third Skill -->
+      <div class="col-md-4 text-center">
+        <img
+          src="https://media.houseandgarden.co.uk/photos/64677e9c55fc4e858e5b4d31/master/w_1600%2Cc_limit/492766473"
+          class="img-fluid rounded"
+          alt="Peace Lily"
+          style="width: 200px; height: 200px; object-fit: cover"
+        />
+        <h5 class="mt-3">Peer Mediator</h5>
+        <p>16+ hours of training to mediate conflicts between students and teach important values. </p>
+      </div>
+    </div>
     <!-- Container (Bootstrap Concept 1: Layout using Container) -->
     <div class="container my-5">
-      <h1 class="text-center mb-4"> Projects</h1>
+      <h1 class="text-center mb-4"> Awards <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
+        <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"/>
+        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
+      </svg> </h1>
 
       <!-- Row and Columns (Bootstrap Concept 2: Grid System) -->
       <div class="row">
         <!-- First Skill -->
         <div class="col-md-4 text-center">
           <img
-            src="https://static.wixstatic.com/media/9107fe_cac49eb7b3db415590b19f5ae9778c5a~mv2.png/v1/fill/w_1960,h_1530,al_c,q_95,usm_0.66_1.00_0.01,enc_avif,quality_auto/Almost%2C%20Maine%20Brochure_zip%20-%201.png"
+            src="https://static.wixstatic.com/media/9107fe_b2521f9b46ef4925bd3ad2784f579e58~mv2.jpeg/v1/fill/w_1011,h_773,fp_0.50_0.47,q_85,enc_avif,quality_auto/IMG_8099.jpeg
             class="img-fluid rounded"
-            alt="Brochure"
-            style="width: 300px; height: 300px; object-fit: cover"
+            alt="Awaard of Honor"
+            style="width: 300px; height: 200px; object-fit: cover"
           />
-          <h5 class="mt-3">Brochure</h5>
-          <p>Tasked with creating a brochure for the theater production "Almost, Maine".</p>
+          <h5 class="mt-3">Award of Honor</h5>
+          <p>Recieved June 2025.</p>
         </div>
 
         <!-- Second Skill -->
         <div class="col-md-4 text-center">
           <img
-            src="https://static.wixstatic.com/media/9107fe_662470ad67344c3fadecf9c4d24fd549~mv2.png/v1/fill/w_1080,h_1080,fp_0.78_0.76,q_90,enc_avif,quality_auto/Green%20and%20White%20Minimalist%20UI%20Inclusivity%20Self%20Improvement%20Inspirational%20Multipage%20Instagr.png"="img-fluid rounded"
-            alt="Instagram"
-            style="width: 200px; height: 200px; object-fit: cover"
+            src="https://static.wixstatic.com/media/9107fe_2e7bee855dcb4f659c77cbef3e71c541~mv2.jpeg/v1/fill/w_996,h_762,al_c,q_85,enc_avif,quality_auto/IMG_8098.jpeg"="img-fluid rounded"
+            alt="Respcet For All"
+            style="width: 300px; height: 200px; object-fit: cover"
           />
-          <h5 class="mt-3">Instagram Promotion</h5>
-          <p>Created a digital flyer to promote school organization. </p>
+          <h5 class="mt-3">Girls With Impact</h5>
+          <p>Recieved June 2025. </p>
         </div>
 
         <!-- Third Skill -->
         <div class="col-md-4 text-center">
           <img
-            src="https://static.wixstatic.com/media/9107fe_475f8cad5fbb417b84eb91635b2b5590~mv2.png/v1/fill/w_1200,h_1528,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/THIS%20ONE%20IN%20USE_png.png"
+            src="https://static.wixstatic.com/media/9107fe_29d5714bc25c4fcca865e41347f3c2be~mv2.jpg/v1/crop/x_5,y_0,w_1000,h_722/fill/w_1000,h_721,fp_0.50_0.50,q_85,enc_avif,quality_auto/IMG_8105.jpg"
             class="img-fluid rounded"
-            alt="Poster"
-            style="width: 200px; height: 200px; object-fit: cover"
+            alt="Valedictorian"
+            style="width: 300px; height: 200px; object-fit: cover"
           />
-          <h5 class="mt-3">Band Poster</h5>
-          <p>Created poster of the Dyanmos for theater production prop of "Mammia Mia!". </p>
+          <h5 class="mt-3">Valedictorian (MS)</h5>
+          <p>Recieved June 2021. </p>
         </div>
       </div>
-  </body>
-</html>
+    <!-- Button (Bootstrap Concept 3: Components) -->
+    <div class="text-center mt-4">
+      <button class="btn btn-dark">Download Resume</button>
+      <link href="https://docs.google.com/document/d/1HTS-ezzGIYJBXT48v_gj3fvRhuxVwZeSw3xRuulrrrk/edit?usp=sharing" crossorigin="anonymous">
+    </div>
+    </div>
+    <head>
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3">
+          <p>&copy; 2025 Lissandra Ferrante. All Rights Reserved.</p>
+          <button id="contactBtn" class="text-bg-light p-3">Lets stay connected! Contact Me.</button>
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JS -->
+        <script src="script.js"></script>
+      </body>
+      </html>
